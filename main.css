@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body{
+    background-image: url("img/minion.png");
+    font-family: 'Luckiest Guy', cursive;
+    max-width: 700px;
+    margin: auto;
+    border: solid 3px black;
+    margin-top: 1rem;
+}
+
+#txt-input{
+    display: block;
+    width: 400px;
+    text-align: justify;
+    border: 3px solid #fce029;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 28px;
+    margin: auto;
+}
+
+#txt-output{
+    display: block;
+    width: 400px;
+    height: 400;
+    text-align: justify;
+    border: 3px solid #fce029;
+    border-radius: 1rem;
+    padding: 1rem;
+    /* align-content: center; */
+    font-size: 28px;
+    margin: auto;
+    /* margin-bottom: 4rem; */
+}
+
+#btn-translate{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 5rem;
+    font-size: 22px;
+    font-weight: bolder;
+    background : #fce029;
+    border-radius: 1rem;
+}
+.container{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-top: 0px;
+    background-color:#4080bf;
+}
+
+h1{
+    color: yellow;
+    font-size: 60px;
+    margin: 0px auto 0.5rem auto;
+    text-align: center;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+}
