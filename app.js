@@ -9,8 +9,8 @@ var serverUrl = "https://api.funtranslations.com/translate/minion.json"
 const url = serverUrl + "?"+"text="+inputText; 
 
 function errorHandler(error){
-    console.log("Error", error);
-    console.log("Something went wrong! Try again after sometime");
+    output.value = "Error"+ error;
+    output.value = "Something went wrong, please try after sometime!";
 }
 
 function translator(){
