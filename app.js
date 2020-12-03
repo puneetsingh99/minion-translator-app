@@ -5,8 +5,8 @@ var translate = document.querySelector("#btn-translate");
 
 var output = document.querySelector("#txt-output");
 
-const serverUrl = "https://api.funtranslations.com/translate/minion.json"
-const url = serverUrl + "?"+"text="+inputText; 
+var serverUrl = "https://api.funtranslations.com/translate/minion.json"
+var url = serverUrl + "?"+"text="+inputText; 
 
 function errorHandler(error){
     output.value = "Error"+ error;
