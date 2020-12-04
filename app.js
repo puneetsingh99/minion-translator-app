@@ -6,7 +6,7 @@ var translate = document.querySelector("#btn-translate");
 
 var output = document.querySelector("#txt-output");
 
-var serverUrl = "https://cors-anywhere.herokuapp.com/https://api.funtranslations.com/translate/minion.json"
+var serverUrl = "https://api.funtranslations.com/translate/minion.json"
 const url = serverUrl + "?"+"text="+inputText; 
 
 
