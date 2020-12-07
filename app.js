@@ -1,4 +1,3 @@
-
 var translate = document.querySelector("#btn-translate");
 
 var output = document.querySelector("#txt-output");
@@ -17,7 +16,7 @@ function translator(){
     const url = serverUrl + "?"+"text="+inputText; 
     fetch(url)
     .then(response => response.json())
-    .then(json => output.value = json.contents.translated)
+    .then(json => output.innerText = json.contents.translated)
     .catch(errorHandler)
     
 }
