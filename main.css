@@ -65,6 +65,9 @@ h1{
 } 
 
 @media (max-width: 500px){
+    body{
+        background: yellow;
+    }
     .container{
         background-image: url("img/minion2.png");
         margin: auto;
