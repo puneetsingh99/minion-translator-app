@@ -71,6 +71,7 @@ h1{
     .container{
         background-image: url("img/minion2.png");
         margin: auto;
+        margin-top: 2rem;
     }
     h1{
         -webkit-text-stroke-width: 1px;
